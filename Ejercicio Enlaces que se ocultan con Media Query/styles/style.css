@@ -1,0 +1,36 @@
+body{
+	background-color: lightgreen;
+}
+li{
+	display: inline;
+}
+li>a{
+	text-decoration: none;
+	background-color: #f0f0f0;
+	border: 2px solid #e1e1e1;
+	color: black;
+	padding: 10px;
+}
+li>a:hover{
+	background-color: #343434;
+	border: solid #000000;
+	color: white;
+}
+@media (max-width: 1024px){
+	.KS{
+		display: none;
+
+	}
+}
+@media (max-width: 768px){
+	.CP{
+		display: none;
+
+	}
+}
+@media (max-width: 480px){
+	.AP{
+		display: none;
+
+	}
+}
